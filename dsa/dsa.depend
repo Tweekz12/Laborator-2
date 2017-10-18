@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508356794 source:c:\program files\codeblocks\projects\dsa\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+
