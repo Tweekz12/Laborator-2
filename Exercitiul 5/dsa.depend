@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508693273 source:c:\program files\codeblocks\projects\dsa\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+
+1508693273 source:c:\program files\codeblocks\projects\exercitiul 5\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+
