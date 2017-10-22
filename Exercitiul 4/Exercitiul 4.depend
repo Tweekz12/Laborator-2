@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508703791 source:c:\program files\codeblocks\projects\exercitiul 4\main.cpp
+	<iostream>
+	<conio.h>
+	<stdio.h>
+
