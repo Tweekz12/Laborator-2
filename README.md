@@ -1,1 +1,1 @@
-# Triunghiul-dreptunghic
+# Laborator 2
