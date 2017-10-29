@@ -17,12 +17,18 @@ int main()
         if (d>=0) {
             x1=(-b+(sqrt(d)))/(2*a);
             x2=(-b-(sqrt(d)))/(2*a);
-            cout << "x1=" << x1 << endl;
-            cout << "x2=" << x2 << endl;
+            if (x1!=x2) {
+                cout << "Ecuatia are doua solutii reale:" << endl;
+                cout << "x1=" << x1 << endl;
+                cout << "x2=" << x2 << endl;
+            }
+            else {
+                  cout << "Ecuatia are doua solutii reale egale:" << endl;
+                  cout << "x1=x2=" << x1 << endl;
+            }
         }
             else
                 cout << "Ecuatia nu are solutii reale. Ecuatia are solutii complexe.";
-
    }
 return 0;
 }
