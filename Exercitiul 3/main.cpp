@@ -1,35 +1,29 @@
 #include <iostream>
-
 using namespace std;
-int main()
+int main ()
 {
     int a,b,c;
-    cout << "a=";
-    cin >> a;
-    cout << "b=";
-    cin >> b;
-    cout << "c=";
-    cin >> c;
-    if (a<b && a<c) {
-        cout << a << "<";
-        if (b<c)
-            cout << b << "<" << c;
+    cin>>a>>b>>c;
+    if (a<=b && a<=c) {
+        cout<<a<<" ";
+        if (b<=c)
+            cout<<b<<" "<<c;
         else
-            cout << c << "<" << b;
+            cout<<c<<" "<<b;
     }
-    if (b<a && b<c) {
-        cout << b << "<";
-        if (a<c)
-            cout << a << "<" << c;
+    else if (b<=a && b<=c) {
+        cout<<b<<" ";
+        if (a<=c)
+            cout<<a<<" "<<c;
         else
-            cout << c << "<" << a;
+            cout<<c<<" "<<a;
     }
-    if (c<a && c<b) {
-        cout << c << "<";
-        if (a<b)
-            cout << a << "<" << b;
+    else if (c<=a && c<=b) {
+        cout<<c<<" ";
+        if (a<=b)
+            cout<<a<<" "<<b;
         else
-            cout << b << "<" << a;
+            cout<<b<<" "<<a;
     }
     return 0;
 }
